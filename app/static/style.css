@@ -61,3 +61,7 @@ a {
   align-self: center;
   width: 33%;
 }
+
+img {
+  object-fit: contain;
+}
