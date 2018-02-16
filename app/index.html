@@ -6,27 +6,24 @@
     <link rel="stylesheet" href="static/style.css">
   </head>
   <body>
-    <section id="start-scherm" class="active">
-      <h1>Startscherm</h1>
-      <p>Wauw super vet man</p>
-    </section>
-    <section id="best-practices">
-      <h1>Best practices</h1>
-      <ul>
-        <li>commit often, push once</li>
-        <li>Don't use global variables/objects</li>
-        <li>Declare variables at top of scope</li>
-        <li>Use short clear meaningful names (English)</li>
-        <li>Work in strict mode</li>
-        <li>camelCase your code if(code != Constructor || CONSTANTS)</li>
-        <li>Place external scripts at the bottom of the page</li>
-        <li>Indent your code</li>    
+
+    <section>
+      <ul id="characters">
+        <a href="" class="link"><li class="character"></li></a>
       </ul>
     </section>
+
+    <section id="characterPage" class="active">
+      <h1 class="character"></h1>
+      <img class="thumbnail" src="" alt="">
+    </section>
+
     <nav>
-      <li> <a href="#start-scherm">Start</a> </li>
+      <li> <a href="#home">Home</a> </li>
       <li> <a href="#best-practices">Best practices</a> </li>
     </nav>
   </body>
+  <script src="static/lib/transparency.js"></script>
+  <script src="static/lib/routie.js"></script>
   <script src="static/app.js"></script>
 </html>
