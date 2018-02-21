@@ -6,21 +6,27 @@
     <link rel="stylesheet" href="static/style.css">
   </head>
   <body>
-
+    <h1>Characters</h1>
+    <header>
+        <input id="filterInput" type="text" name="filter" value="">
+        <input id="submit" type="submit" name="submit" value="filter">
+    </header>
     <section>
       <ul id="characters">
-        <a href="" class="link"><li class="character"></li></a>
+        <div>
+          <a href="" class="link"> <img class="thumbnail" src="" alt=""> </a>
+          <li class="character"></li>
+        </div>
       </ul>
     </section>
 
     <section id="characterPage" class="active">
       <h1 class="character"></h1>
-      <img class="thumbnail" src="" alt="">
+      <img class="heroImage" src="" alt="">
     </section>
 
     <nav>
-      <li> <a href="#home">Home</a> </li>
-      <li> <a href="#best-practices">Best practices</a> </li>
+      <li> <a href="#">Home</a> </li>
     </nav>
   </body>
   <script src="static/lib/transparency.js"></script>
