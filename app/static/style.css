@@ -1,8 +1,4 @@
 body {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 25% 25% 25% 25%;
-  flex-direction: column;
   font-family: helvetica;
   background-color: cadetblue;
   min-width: 100%;
@@ -10,6 +6,10 @@ body {
   margin: 0;
 }
 
+body>h1 {
+  text-align: center;
+  color: white;
+}
 
 section {
   display: none;
@@ -64,4 +64,17 @@ a {
 
 img {
   object-fit: contain;
+}
+
+ul {
+  display: grid;
+  grid-gap: 1em;
+  position: relative;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+ul li {
+  list-style: none;
+  padding-left: 1em;
+  color: white;
 }
