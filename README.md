@@ -1,4 +1,4 @@
-# wafs
+# Web App From Scratch
 
 #### Intro
 
@@ -32,7 +32,8 @@ Every character has a detail page, containing a larger picture and the character
 
 #### Wishlist
 
-
+The api provides information about comics and stories the characters starred in. I would like to display this in the future.
+I would also like to filter correctly. At the moment it only filters if the user input is the same as any character name.
 
 #### Sources
 
