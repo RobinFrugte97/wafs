@@ -6,12 +6,20 @@
     <link rel="stylesheet" href="static/style.css">
   </head>
   <body>
-    <h1>Characters</h1>
     <header>
-        <input id="filterInput" type="text" name="filter" value="">
-        <input id="submit" type="submit" name="submit" value="filter">
+      <div class="logo">
+          <img src="images/Marvel-logo.png" alt="">
+      </div>
+      <input id="filterInput" type="text" name="filter" value="" placeholder="Search for character...">
+
     </header>
-    <section>
+    <div id="wrapper">
+      <div id="loader">
+
+      </div>
+    </div>
+
+    <section id="detail">
       <ul id="characters">
         <div>
           <a href="" class="link"> <img class="thumbnail" src="" alt=""> </a>
@@ -23,6 +31,10 @@
     <section id="characterPage" class="active">
       <h1 class="character"></h1>
       <img class="heroImage" src="" alt="">
+      <h1>Comics</h1>
+      <ul class="comics">
+        <li class="name"></li>
+      </ul>
     </section>
 
     <nav>
