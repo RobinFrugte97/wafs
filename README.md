@@ -28,7 +28,7 @@ Every character has a detail page, containing a larger picture and the character
 
 #### Usage
 
-
+This is a single page web app. You need JavaScript for it to work properly.
 
 #### Wishlist
 
