@@ -13,13 +13,13 @@ I've used two microlibs in my single page web app. I used the rendering engine T
 - [Transparency.js](https://github.com/leonidas/transparency)
 - [routie.js](http://projects.jga.me/routie/)
 
-#### Visualized flow
+#### Interaction Diagram
 
 ![](https://github.com/RobinFrugte97/wafs/blob/master/images/VisualizedFlow.jpg)
 
-#### Method diagram
+#### Actor Diagram
 
-![](https://github.com/RobinFrugte97/wafs/blob/master/images/MethodDiagram.jpg)
+![](https://github.com/RobinFrugte97/wafs/blob/master/images/MethodDiagram.png)
 
 #### Features
 
