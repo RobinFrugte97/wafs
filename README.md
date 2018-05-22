@@ -6,6 +6,8 @@ My single page web app is about Marvel characters.
 
 To get the marvel api, you have to create a developer account on the [marvel developer page](https://developer.marvel.com/)
 
+[Prototype](https://robinfrugte97.github.io/wafs/app/index.html)
+
 #### Microlibs
 
 I've used two microlibs in my single page web app. I used the rendering engine Transparency.js to render the HTML pages with the api data. I used the routing engine routie.js to route everything within the single page web app.
