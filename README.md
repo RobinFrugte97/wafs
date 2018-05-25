@@ -17,7 +17,7 @@ I've used two microlibs in my single page web app. I used the rendering engine T
 
 #### Interaction Diagram
 
-![](https://github.com/RobinFrugte97/wafs/blob/master/images/VisualizedFlow.jpg)
+![](https://github.com/RobinFrugte97/wafs/blob/master/images/VisualizedFlow.png)
 
 #### Actor Diagram
 
